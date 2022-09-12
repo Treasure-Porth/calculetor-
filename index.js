@@ -62,10 +62,6 @@ function divide(){
     sign.textContent += "/"
     console.log(firstNum.textContent)
 }
-function equal(){
-    //result.textContent
-    console.log(Write.textContent)
-    console.log(Write.typeof)
-}
 
-console.log(Write.typeof)
+
+//console.log(Write.typeof)
