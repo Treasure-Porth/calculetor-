@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>calculetor</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="./index.css">
   <script src="https://kit.fontawesome.com/3dc5cce3e2.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="main-container">
-    <div class="second-container">
+    <div class="second-container" id="second-container">
       <span id="first-num"></span>
       <span id="sign"></span>
       <span id="second-num"></span>
+      <br>
+      <br>
       <br>
       <span id="result"></span>
     </div>
@@ -33,12 +35,11 @@
       <button onclick="nine()">9</button>
       <button onclick="zero()">0</button>
       <button onclick="equal()">=</button>
-      <button class="space" onclick="space()"></button>
-    </div>
-    <!-- <div class="space"> -->
-      <button onclick="space()"></button>
-    <!-- </div> -->
-  </div>
+      <button id="space" onclick="space()"></button>
+      <button id="del" onclick="del()">Del</button>
+
   <script src="./index.js"></script>
 </body>
 </html>
+
+
