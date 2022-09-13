@@ -31,7 +31,7 @@ body{
 .number-container{
   text-align: left;
   background: rgb(70, 58, 68);
-  height: 150px;
+  height: 180px;
   width: 220px;
   margin-left: 5px;
   border-radius: 5px;
@@ -45,20 +45,21 @@ body{
   margin-top: 4px;
 }
 
-.space{
-  background: rgb(70, 58, 68);
-  width: 220px;
-  height: 35px;
-  margin: 5px;
-  border-radius: 5px;
-}
-.space button{
-  background: rgb(132, 137, 136);
-  height: 29px;
-  width: 214px;
-  margin-top: 4px;
-  margin-left: 2px;
-  border-radius: 5px;
-
+#space{
+  margin-top: 5px;
+  width: 145px;
 }
 
+#del{
+  margin: 0px;
+  position:relative;
+  bottom: 5px;
+  right: 1px;
+}
+
+#result{
+    display: block;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 8px
+}
